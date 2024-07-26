@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #006400;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+}
+
+header .welcome {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header a {
+    color: #ffdd00;
+    text-decoration: none;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    background-color: #004d00;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    width: 70%;
+    float: left;
+}
+
+article {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+article h2 {
+    margin: 0;
+    color: #006400;
+}
+
+aside {
+    width: 25%;
+    float: right;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+aside section {
+    margin-bottom: 20px;
+}
+
+aside h3 {
+    background-color: #004d00;
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 5px 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #006400;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #006400;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer .links {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h4 {
+    margin: 10px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #ffdd00;
+}

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.nav_list:hover{
+
+    border: 4px solid rgb(241 245 249);
+}
+.nav_list{
+    transition: all 0.2;
+}
