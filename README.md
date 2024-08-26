@@ -7,3 +7,4 @@ Technologies Used
 React: A JavaScript library for building user interfaces.
 Tailwind CSS: A utility-first CSS framework for rapid UI development.
 JavaScript: The primary programming language used in the project.
+
